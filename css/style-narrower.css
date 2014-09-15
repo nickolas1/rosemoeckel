@@ -1,0 +1,47 @@
+
+    .header__text
+    {
+        font-size: 1.9em;
+    }
+    .header__text-background
+    {
+        height: 2.6em;
+    }
+    
+    #nav
+    {
+        line-height: 1.3em;
+    }
+    
+    #nav-spacer:before
+    {
+        padding-top: 2.2em;
+    }
+    
+    #about-rose, #stilllife
+    {
+        width: 57%;
+        margin: 0 0 0 2%;
+    }
+    #landscape, #winter
+    {
+        width: 41%;
+        margin: 0;
+    }
+    
+    
+    
+    body
+    {
+        font-size: 90%;
+    }
+    
+    .artpiece__title
+    {
+        font-size: 1em;
+    }
+    .artpiece__price, .artpiece__size, .artpiece__medium
+    {
+        font-size: 0.8em;   
+    }
+ 

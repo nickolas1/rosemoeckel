@@ -1,0 +1,68 @@
+    body
+    {
+        font-size: 110%;
+    }
+
+    .artpiece
+    {
+        padding: 2% 0 6% 0;
+        line-height: 1em;
+        width: 100%;
+        font-weight: 400;
+        color: #333333;
+        position: relative;
+        /*top:      0;
+        left:     0;
+        bottom:   0;
+        right:    0;*/
+    }
+    .artpiece__picture-box:before
+    {
+        content: "";
+        display: block;
+        padding-top: 0%;
+    }
+    .artpiece__title, .artpiece__price
+    {
+        padding-left:5px;
+    }
+    
+    .image.artwork
+    {
+        max-height: none;
+    }
+
+    .header__text
+    {
+        font-size: 1.3em;
+    }
+    .header__text-background
+    {
+        height: 1.8em;
+    }
+    
+    #nav, #header
+    {
+        margin: 0;
+        /*background: #F0F0F0;*/
+    }
+    
+    #nav
+    {
+        font-size: .7em;
+        line-height: 1.4em;
+    }
+    
+    #nav-spacer:before
+    {
+        padding-top: 2.1em;
+    }
+    
+    .nav-choice--selected
+    {
+        font-weight: 600;
+        font-size: 100%;
+    }
+
+    
+ 
