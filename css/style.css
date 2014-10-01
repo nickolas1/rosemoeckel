@@ -59,7 +59,7 @@
         position: absolute;
         top: 0;
         left: 0;      
-    }
+    } 
     
     .header__text-background
     {
@@ -110,7 +110,6 @@
     }
     .artpiece__picture-box{
         position: relative;
-        width: 100%;
     }
     .artpiece__picture-box:before{
         content: "";
@@ -241,8 +240,6 @@
 			display: inline-block;
 			border: 0;
 			max-width: 100%;
-			zoom: 1;
-			*display: inline;
 		}
 		
 		.image.banner

@@ -121,11 +121,11 @@
         "display": true
     },
     {
-        "title": "Bayfield Plein Air",
-        "price": 150,
+        "title": "June-Plein Air",
+        "price": 200,
         "size": "8x6",
         "medium": "oil",
-        "imagename": "bayfield-plein-air",
+        "imagename": "june-plein-air",
         "landscape": true,
         "stilllife": false,
         "winter": false,
@@ -165,11 +165,11 @@
         "display": true
     },
     {
-        "title": "Tree Plein Air",
-        "price": 150,
+        "title": "May-Plein Air",
+        "price": 200,
         "size": "8x6",
         "medium": "oil",
-        "imagename": "tree-plein-air",
+        "imagename": "may-plein-air",
         "landscape": true,
         "stilllife": false,
         "winter": false,
@@ -198,8 +198,8 @@
         "display": true
     },
     {
-        "title": "Island Lake Plein Air",
-        "price": 150,
+        "title": "Island Lake -Plein Air",
+        "price": 200,
         "size": "8x6",
         "medium": "oil",
         "imagename": "island-lake-plein-air",
@@ -210,7 +210,7 @@
     },
     {
         "title": "Highland Scene",
-        "price": 150,
+        "price": 200,
         "size": "8x6",
         "medium": "oil",
         "imagename": "highland-scene",
