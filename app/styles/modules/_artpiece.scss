@@ -1,0 +1,66 @@
+// bower:scss
+// endbower    
+
+.artpiece {
+  position: relative;
+  
+  padding: 0% 0% 6% 0%;
+
+  font-weight: 400;
+  
+  background: linear-gradient(to bottom, rgba($light-background,1) 80%,rgba($artpiece-gradientstart,1) 100%); 
+  
+  @media screen and (min-width: $break-small) {
+    position: absolute;
+    top:      0;
+    left:     0;
+    bottom:   0;
+    right:    0;
+  }
+}
+
+.artpiece__image {
+  height: 90%; /* make room for title etc. */
+  display: block;
+}
+
+.artpiece__image img {
+  @media screen and (min-width: $break-small) {
+  /* if multi-column, don't let portrait orientation be too tall */
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    box-shadow: 0 .15em .15em 0 rgba(0,0,0,0.4);
+  }
+}
+
+.artpiece__title {
+  font-size: 1.4em;
+  @media screen and (min-width: $break-small) {
+    font-size: 1em;
+  }
+  @media screen and (min-width: $break-large) {
+    font-size: 0.9em;
+  }
+}
+
+.artpiece__price, .artpiece__size, .artpiece__medium {
+  display: inline-block;
+  line-height: 0.5em;
+  font-size: 1em;   
+  position: relative;
+  top: -0.25em;
+  @media screen and (min-width: $break-small) {
+    font-size: 0.8em;
+  }
+  @media screen and (min-width: $break-large) {
+    font-size: 0.7em;
+    top: -0.5em;
+  }
+}
+
+.artpiece__size, .artpiece__medium {
+    padding: 0 0 0 1.1em;
+}
+    

@@ -1,0 +1,27 @@
+// bower:scss
+// endbower
+
+/*--------------------------------
+/ themes -----------------------*/
+@import "themes/_config.scss";
+
+/*--------------------------------
+/ base -------------------------*/
+@import "base/_reset.scss";
+@import "base/_base.scss";
+
+/*--------------------------------
+/ modules -----------------------*/
+@import "modules/_header.scss"; 
+@import "modules/_navigation.scss"; 
+@import "modules/_artpiece.scss"; 
+@import "modules/_gallery.scss"; 
+@import "modules/_about-rose.scss"; 
+@import "modules/_popup.scss"; 
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}

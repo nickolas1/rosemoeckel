@@ -1,0 +1,36 @@
+// bower:scss
+// endbower
+
+////////////////////////////////
+// SASS variables, mostly for colors and sizing
+////////////////////////////////
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+
+///// typography
+
+$font-stack: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-size-base: 75%;
+$font-size-small: 85%;
+$font-size-medium: 90%;
+$font-size-large: 100%;
+$font-weight-base: 300;
+
+$text-dark: #333333;
+$text-lighter: #666666;
+$text-middle: #535353;
+
+$artpiece-underline: #e8e8e8;
+$artpiece-gradientstart: #f4f4f4;
+
+$light-background: #fafafa;
+$light-opacity: 0.75;  
+  
+$header-shadow-color: #000000;
+
+$break-small: 481px;
+$break-medium: 651px;
+$break-medium-large: 750px;
+$break-large: 931px;
+$break-huge: 1100px;

@@ -284,28 +284,28 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care
     // of minification. These next options are pre-configured if you do not
     // wish to use the Usemin blocks.
-     cssmin: {
-       dist: {
-         files: {
-           '<%= config.dist %>/styles/main.css': [
-             '.tmp/styles/{,*/}*.css',
-             '<%= config.app %>/styles/{,*/}*.css'
-           ]
-         }
-       }
-     },
-     uglify: {
-       dist: {
-         files: {
-           '<%= config.dist %>/scripts/scripts.js': [
-             '<%= config.dist %>/scripts/scripts.js'
-           ]
-         }
-       }
-     },
-     concat: {
-       dist: {}
-     },
+    // cssmin: {
+    //   dist: {
+    //     files: {
+    //       '<%= config.dist %>/styles/main.css': [
+    //         '.tmp/styles/{,*/}*.css',
+    //         '<%= config.app %>/styles/{,*/}*.css'
+    //       ]
+    //     }
+    //   }
+    // },
+    // uglify: {
+    //   dist: {
+    //     files: {
+    //       '<%= config.dist %>/scripts/scripts.js': [
+    //         '<%= config.dist %>/scripts/scripts.js'
+    //       ]
+    //     }
+    //   }
+    // },
+    // concat: {
+    //   dist: {}
+    // },
 
     // Copies remaining files to places other tasks can use
     copy: {
@@ -317,12 +317,9 @@ module.exports = function (grunt) {
           dest: '<%= config.dist %>',
           src: [
             '*.{ico,png,txt}',
-            'images/{,*/}*.*',
+            'images/{,*/}*.webp',
             '{,*/}*.html',
-            '{,*/}*.json',
-            '{,*/}*.php',
-            'styles/fonts/{,*/}*.*',
-            'scripts/{,*/}*.js'
+            'styles/fonts/{,*/}*.*'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
@@ -366,9 +363,9 @@ module.exports = function (grunt) {
       ],
       dist: [
         'sass',
-        'copy:styles'/*,
+        'copy:styles',
         'imagemin',
-        'svgmin'*/
+        'svgmin'
       ]
     }
   });
@@ -423,7 +420,7 @@ module.exports = function (grunt) {
     'uglify',
     'copy:dist',
     'modernizr',
-    /*'rev',*/
+    'rev',
     'usemin',
     'htmlmin'
   ]);

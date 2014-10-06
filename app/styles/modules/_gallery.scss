@@ -1,0 +1,47 @@
+// bower:scss
+// endbower    
+    
+.gallery {
+  width: 99%;
+  margin: 0 auto;
+  text-align: justify;
+  list-style-type: none;
+  &:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+.gallery > li {
+  width: 100%;
+  border-bottom: 1px solid $artpiece-underline;
+ 
+  position: relative;
+  
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  
+  @media screen and (min-width: $break-small) {
+    width: 49%;
+    padding-top: 49%;
+    margin-bottom: 2%;
+  }
+  @media screen and (min-width: $break-medium) {
+    width: 32.5%;
+    padding-top: 32.5%;
+  }
+  @media screen and (min-width: $break-large) {
+    width: 24.5%;
+    padding-top: 24.5%;
+  }
+}
+
+.gallery > li.placeholder {
+  padding-top: 0;
+  margin: 0;
+  border: none
+}
+
+

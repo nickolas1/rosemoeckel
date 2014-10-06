@@ -1,0 +1,60 @@
+// bower:scss
+// endbower    
+
+.poptrox-popup {
+  background: $light-background;
+  color: $text-dark;
+  padding: 10px;
+  padding-bottom: 60px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ /* text-align: center;*/
+  height: 60px;
+  line-height: 60px;
+}
+
+.nav-next, .nav-previous {
+  font-size: 60px;
+ /* text-align: center;*/
+  color: $text-dark;
+  text-shadow: none;
+  height: 100%;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  opacity: 0.2;
+  cursor: pointer;
+  box-shadow: inset 0 0 10px 0 rgba(0,0,0,0);
+  line-height: 100%;
+  user-select: none;
+}    
+
+.nav-next {
+  right: 0;
+}
+
+.nav-next:empty:after {
+  content: "\003E";
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-previous {
+  left: 0;
+}
+
+.nav-previous:empty:after {
+  content: "\003C";
+  width: 100px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
