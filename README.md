@@ -31,3 +31,7 @@ once everything in the spreadsheet is to your liking, open up the file “artwor
 
 ###NOTE ABOUT imagename:
 Each image that’s on the page needs two files: a normal image and a thumbnail. The normal images have their longest side at 960 pixels (i.e. they fit in a 960x960 square), and the thumbnails fit in a 480x480 square. So save two copies of the photo to the img folder: a large one called BASE-IMAGE-NAME.jpg and a smaller one called BASE-IMAGE-NAME_480.jpg. BASE-IMAGE-NAME should ideally have no whitespace.
+
+
+####NOTE ABOUT building:
+from the root directory run 'grunt build'. This creates a 'dist' directory, which is to be uploaded to the webserver.
